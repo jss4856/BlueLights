@@ -2,6 +2,7 @@ import sys
 import os
 import Queue
 import time
+import datetime
 
 ##API##
 #Note; All functions must be implimented and must retain standard arguments.
@@ -65,7 +66,7 @@ def moduleRun(am, gm, se, sam, lg, rc, errs):
     #Add your main loop code below
     
     fade = 0
-    while True:
+    while datetime.datetime.now(==12:45) :
         sendArduinoMessage(moduleName(), "blue;255")
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "green;255")
