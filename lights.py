@@ -2,7 +2,6 @@ import sys
 import os
 import Queue
 import time
-import datetime
 
 ##API##
 #Note; All functions must be implimented and must retain standard arguments.
@@ -64,9 +63,9 @@ def moduleRun(am, gm, se, sam, lg, rc, errs):
     addMetric("TestMetric", "TestValue", moduleName())
     
     #Add your main loop code below
-    log(
+  log(timevar = time.strftime("%H"))
     fade = 0
-    while datetime.datetime(==12:45):
+    while datetime.datetime():
         sendArduinoMessage(moduleName(), "blue;255")
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "green;255")
@@ -93,7 +92,7 @@ while datetime.datetime(==11:49):
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "red;0")
 	time.sleep(1)
- )
+ 
 
 
  
