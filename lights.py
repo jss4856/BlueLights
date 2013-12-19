@@ -66,7 +66,7 @@ def moduleRun(am, gm, se, sam, lg, rc, errs):
     #Add your main loop code below
     
     fade = 0
-    while datetime.datetime.now(==12:45) :
+    while datetime.datetime(==12:45):
         sendArduinoMessage(moduleName(), "blue;255")
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "green;255")
@@ -79,7 +79,7 @@ def moduleRun(am, gm, se, sam, lg, rc, errs):
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "red;100")
 	time.sleep(1)
-
+while datetime.datetime(==8:40):
 	sendArduinoMessage(moduleName(), "blue;50")
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "green;50")
