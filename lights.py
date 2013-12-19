@@ -66,7 +66,7 @@ def moduleRun(am, gm, se, sam, lg, rc, errs):
   timevar = time.strftime("%H")
     fade = 0
     #test at 9
-    while (timevar == "00,09"):
+    while (timevar == "09"):
         sendArduinoMessage(moduleName(), "blue;255")
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "green;255")
