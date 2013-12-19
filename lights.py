@@ -64,7 +64,7 @@ def moduleRun(am, gm, se, sam, lg, rc, errs):
     addMetric("TestMetric", "TestValue", moduleName())
     
     #Add your main loop code below
-    
+    log(
     fade = 0
     while datetime.datetime(==12:45):
         sendArduinoMessage(moduleName(), "blue;255")
@@ -93,7 +93,7 @@ while datetime.datetime(==11:49):
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "red;0")
 	time.sleep(1)
- 
+ )
 
 
  
