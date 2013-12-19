@@ -86,7 +86,7 @@ while datetime.datetime(==8:40):
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "red;50")
 	time.sleep(1)
-
+while datetime.datetime(==11:49):
 	sendArduinoMessage(moduleName(), "blue;0")
 	time.sleep(1)
 	sendArduinoMessage(moduleName(), "green;0")
