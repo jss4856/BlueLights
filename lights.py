@@ -2,6 +2,7 @@ import sys
 import os
 import Queue
 import time
+import datetime
 
 ##API##
 #Note; All functions must be implimented and must retain standard arguments.
@@ -63,7 +64,7 @@ def moduleRun(am, gm, se, sam, lg, rc, errs):
     addMetric("TestMetric", "TestValue", moduleName())
     
     #Add your main loop code below
-  timevar = time.strftime("%H")
+  timevar = datetime.datetime("")
     fade = 0
     #test at 9
     while (timevar == "09"):
