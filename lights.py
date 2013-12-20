@@ -64,6 +64,7 @@ def moduleRun(am, gm, se, sam, lg, rc, errs):
     addMetric("TestMetric", "TestValue", moduleName())
     
     #Add your main loop code below
+     timevar = time.strftime("")
 
 	sendArduinoMessage(moduleName(), "blue;0")
 	time.sleep(1)
